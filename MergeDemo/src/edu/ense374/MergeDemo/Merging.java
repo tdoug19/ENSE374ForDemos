@@ -13,13 +13,30 @@ package edu.ense374.MergeDemo;
  */
 public class Merging {
 
+	
+	int Factorial(int factorial)
+	{
+		int result = 1;
+	    for	(int i = 1; i <= factorial; i++) {
+	           result = result * i;
+	    }
+		
+	    return result;
+		
+	}
+	
+	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 
-	        System.out.println("Hello World!"); // Display the string.
+			Merging merge = new Merging();
+			int result = merge.Factorial(5);
+			System.out.println("Factorial is: " + result); 
     }
+	
+	
 
 
 
