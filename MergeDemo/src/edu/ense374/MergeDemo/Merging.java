@@ -13,11 +13,15 @@ package edu.ense374.MergeDemo;
  */
 public class Merging {
 
-	
-	int Factorial(int factorial)
+	/**
+        *  Create a factorial method
+        *  @param factorial
+	*  @return result
+        */
+        int Factorial(int factorial)
 	{
-		//I have to initialize the factorial to 1
-		int result = 1;
+	    //I have to initialize the factorial to 1
+            int result = 1;
 	    for	(int i = 1; i <= factorial; i++) {
 	           result = result * i;
 	    }
